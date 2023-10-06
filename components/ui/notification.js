@@ -1,5 +1,3 @@
-// import ReactDOM from 'react-dom';
-
 import classes from './notification.module.css';
 
 function Notification(props) {
@@ -23,10 +21,7 @@ return ( <div className={cssClasses}>
 </div>
 );
 
-  // return ReactDOM.createPortal(
-   
-  //   document.getElementById('notifications')
-  // );
+ 
 }
 
 export default Notification;
